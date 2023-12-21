@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practice</title>
+  <link rel="stylesheet" href="/assets/hover.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <script src="/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+
+<body>
+  <!-- nav bar start -->
+  <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html"><i class="bi bi-camera-fill"> MRB WILDLIFE PHOTOGRAPHY</a></i>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="d-flex justify-content-start">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact Us</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a> -->
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+          </ul>
+          <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit"><i class="bi bi-search-heart"></i>Search</button>
+        </form> -->
+        </div>
+      </div>
+    </div>
+  </nav><br>
+  <!-- nav bar stop -->
+  <!-- slide start -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="images/bengal-tiger-white-wqhd-1440p-wallpaper.jpg" class="d-block w-100" height="500px" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h5 style="font-size: 40px;">Bengal tiger</h5>
+          <p style="font-size: 30px;">The force with which they attack breaks the spine of any animal</p>
+        </div>
+      </div>
+      <div class="carousel-item " data-bs-interval="2000">
+        <img src="images/orangutan-uhd-4k-wallpaper.jpg" class="d-block w-100" height="500px" alt="orangutan">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="font-size: 40px;">orangutan</h5>
+          <p style="font-size: 30px;">Orangutans are great apes native to the rainforests of Indonesia and Malaysia.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="images/parrot-wqhd-1440p-wallpaper.jpg" class="d-block w-100" height="500px" alt="...">
+        <div class="carousel-caption d-none d-md-block text-end">
+          <h5 style="font-size: 40px;">parrot</h5>
+          <p style="font-size: 30px;">They are capable of associating words with objects and situations and can even use
+            tools and solve problems.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- slide stop -->
+  <!-- grid start -->
+
+  <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5">
+    <div class="col">
+      <div class="card h-100 hvr-grow-shadow">
+        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg> -->
+        <img src="images/wild-cheetah-sitting-wqhd-1440p-wallpaper.jpg" alt="image" width="100%" height="140"
+          class="img-fluid img-hover mx-auto">
+        <div class="card-body">
+          <h5 class="card-title">cheetah</h5>
+          <p class="card-text">Fastest mammal on land, the cheetah can reach speeds of 60 or perhaps even 70 miles (97
+            or 113 kilometers) an hour over short distances.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100  hvr-rotate">
+        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"> -->
+        <img src="images/winter-wolf-uhd-4k-wallpaper.jpg" alt="image" width="100%" height="140%"
+          class="img-fluid img-hover mx-auto">
+        <title>Placeholder</title>
+        <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+        </text>
+        </svg>
+        <div class="card-body ">
+          <h5 class="card-title">wolf</h5>
+          <p class="card-text">The wolf, also known as the gray wolf or grey wolf, is a large canine native to Eurasia
+            and North America.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 hvr-grow-shadow">
+        <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg"
+          role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"> -->
+        <img src="/images/weddell-seal-antarctica-uhd-4k-wallpaper.jpg" alt="cheetah" width="100%" height="140%"
+          class="img-fluid img-hover mx-auto">
+        <title>Weddell seal</title>
+        <!-- <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text> -->
+        </svg>
+        <div class="card-body">
+          <h5 class="card-title">Weddell seal</h5>
+          <p class="card-text">The Weddell seal is a relatively large and abundant true seal with a circumpolar
+            distribution surrounding Antarctica.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- grid end -->
+    <!-- black cat image -->
+
+    <img src="/images/black-cat-dual-monitor-wallpaper.jpg" alt="cat" class="img-fluid w-100 mt-5">
+
+    <!-- elephant card start-->
+    <div class="card mb-3 mt-5" style="width: 1350px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="/images/pexels-pixabay-53125.jpg" class="img-fluid w-100" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title fs-1">Asian Elephant</h5>
+            <p class="card-text fs-4">TThe Asian elephant is distinguished from the African elephant by its much smaller
+              stature. It also has smaller, more rounded ears and a twin-domed head rather than a rounded head. Female
+              Asian elephants usually lack tusks, which has the added benefit of making them less vulnerable to ivory
+              poachers. Asian elephants have only one finger at the tip of their trunk, while African elephants have
+              two. The highest point of an Asian elephant is its slightly humped back, while African elephants are
+              tallest at the shoulder.Asian elephants can consume up to 150 kilos of food a day. Their diet includes
+              grasses, bamboo shoots, leaves, roots and bark. They also have a fondness for cultivated crops such as
+              rice and sugar cane, which can lead to conflict with humans.Asian elephants have a significant physical
+              impact on their environment. As they move in herds, they make wide paths, create mud wallows and play a
+              crucial role as seed dispersers and forest gardeners.Asian elephants are adapted to a wide variety of
+              habitats including dense tropical evergreen forest, dry and wet deciduous forests, scrubland and
+              grasslands.Fewer than 50,000 wild Asian elephants are estimated to survive today. </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- elephant card end-->
+
+    <!-- man photo start-->
+    <div class="card text-bg-dark w-100">
+      <img src="/images/justin-timberlake-uhd-4k-wallpaper.jpg" class="img-fluid" alt="img">
+      <div class="card-img-overlay">
+        <h5 class="card-title fs-1 text-danger text-center">wildlife photography</h5>
+        <p class="card-text text-white fs-3">
+          Photography has always played a significant role in conservation efforts. Photos and footage make wildlife
+          accessible and relatable to people around the world.</p>
+
+      </div>
+    </div>
+    <!-- man photo end -->
+    <!-- footer start -->
+
+    <footer class="py-3 my-4 w-100 bg-warning">
+      <ul class="nav justify-content-center border-bottom pb-5 pt-5 mb-5">
+        <li class="nav-item fs-3"><a href="/index.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item fs-3"><a href="/aboutus.html" class="nav-link px-2 text-muted">About Us</a></li>
+        <li class="nav-item fs-3"><a href="/blog.html" class="nav-link px-2 text-muted">blog</a></li>
+        <li class="nav-item fs-3"><a href="/" class="nav-link px-2 text-muted">Contact Us</a></li>
+        <!-- <li class="nav-item fs-3"><a href="#" class="nav-link px-2 text-muted">About</a></li> -->
+      </ul>
+      <!-- <p class="text-center text-muted fs-2">Address-Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae hic
+        deserunt
+        veniam adipisci sed dolorum.</p> -->
+    </footer>
+
+
+
+
+</html>
+</body>
